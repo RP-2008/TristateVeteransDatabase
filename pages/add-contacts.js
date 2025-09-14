@@ -205,12 +205,6 @@ export default function AddContacts() {
             )}
           </div>
         </form>
-
-        <p style={{ color: "#fff", marginTop: 16 }}>
-          Tip: for automatic server-side saving, add a Vercel env var named
-          <code style={{ padding: 4, background: "rgba(0,0,0,0.2)", marginLeft: 6 }}>BLOB_READ_WRITE_TOKEN</code>
-          and redeploy. Without it, submissions are saved locally and downloadable.
-        </p>
       </main>
     </div>
   );

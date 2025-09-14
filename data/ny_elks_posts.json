@@ -1,0 +1,906 @@
+[
+  {
+    "postNumber": "ELKS 101",
+    "address": "8 Fourth St, Amsterdam, NY 12010-4409, Amsterdam, NY",
+    "phone": "(518) 842-2275",
+    "email": "secretary@elks101.org",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2466",
+    "address": "695 Mac Elroy Rd, Ballston Lake, NY 12019-1933, Ballston Lake, NY",
+    "phone": "(518) 877-5200",
+    "email": "secretary@cliftonparkelks.org",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2040",
+    "address": "152 Legion Dr, Cobleskill, NY 12043-1641, Cobleskill, NY",
+    "phone": "(518) 234-2696",
+    "email": "secretaryelks@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2507",
+    "address": "5 Windsor Dr, Corinth, NY 12822-1231, Corinth, NY",
+    "phone": "(518) 654-9747",
+    "email": "elks2507@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1439",
+    "address": "124 Mary St, Herkimer, NY 13350-1910, Herkimer, NY",
+    "phone": "(315) 866-1439",
+    "email": "HerkimerElks1439@hotmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1444",
+    "address": "8 West St, Ilion, NY 13357-1903, Ilion, NY",
+    "phone": "(315) 894-1444",
+    "email": "ilionelks1444@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2759",
+    "address": "176 Sacandaga Rd, Glenville, NY 12302-5334, Glenville, NY",
+    "phone": "(518) 399-0380",
+    "email": "myslinskig@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1931",
+    "address": "195 Broadway, Hicksville, NY 11801-4221, Hicksville, NY",
+    "phone": "(516) 342-9426",
+    "email": "hicksvilleelks1931@outlook.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1565",
+    "address": "195 Harbor Rd, Huntington, NY 11743-1125, Huntington, NY",
+    "phone": "(631) 427-1754",
+    "email": "drumjack2@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2533",
+    "address": "251 Main St, Islip, NY 11751-3505, Islip, NY",
+    "phone": "(631) 277-3835",
+    "email": "islipelks2533@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2162",
+    "address": "57 Hempstead Ave, Lynbrook, NY 11563-2415, Lynbrook, NY",
+    "phone": "(516) 599-1515",
+    "email": "secretary2162@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1323",
+    "address": "1514-1516 Main St, East Northport, NY 11731-1808, East Northport, NY",
+    "phone": "(631) 754-4966",
+    "email": "bpoelks1323@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2138",
+    "address": "120 Edgewood Ave, Smithtown, NY 11787-3201, Smithtown, NY",
+    "phone": "(631) 265-3050",
+    "email": "emeraldcity1@optonline.net",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2044",
+    "address": "1727 Merrick Rd, Merrick, NY 11566-4715, Valley Stream (Merrick), NY",
+    "phone": "(516) 379-9180",
+    "email": "elks2044@aol.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2036",
+    "address": "34 Old Riverhead Rd, Westhampton Beach, NY 11978-2610, Westhampton Beach, NY",
+    "phone": "(631) 288-1666",
+    "email": "elkslevantino@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1574",
+    "address": "605 County Rd 39, Southampton, NY 11968-4703, Southampton, NY",
+    "phone": "(631) 283-2454",
+    "email": "secretary1574@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1971",
+    "address": "85 Spring St, Ellenville, NY 12428, Ellenville, NY",
+    "phone": "(845) 647-1496",
+    "email": "bpoe1971@hotmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2067",
+    "address": "35 Chestnut St, Greenwood Lake, NY 10925-1235, Greenwood Lake, NY",
+    "phone": "(845) 477-2067",
+    "email": "elks2067@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 550",
+    "address": "143 Hurley Ave, Kingston, NY 12401-5210, Kingston, NY",
+    "phone": "(845) 331-0483",
+    "email": "kingston.bpoe.550@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1545",
+    "address": "364 N Main St, Liberty, NY 12754-1838, Liberty, NY",
+    "phone": "(845) 292-2988",
+    "email": "tanmar5@msn.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1097",
+    "address": "48 North St, Middletown, NY 10940-5402, Middletown, NY",
+    "phone": "(845) 343-9150",
+    "email": "middletownelkssecretary@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1544",
+    "address": "46 North St, Monticello, NY 12701-1719, Monticello, NY",
+    "phone": "(845) 794-1544",
+    "email": "bpoe1544@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2568",
+    "address": "2908 State Route 32, New Paltz, NY 12561-3102, New Paltz, NY",
+    "phone": "(845) 255-2655",
+    "email": "sec.npelks2568@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 247",
+    "address": "356 Washington St, Newburgh, NY 12550-4740, Newburgh, NY",
+    "phone": "(845) 561-1562",
+    "email": "docscarano@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 645",
+    "address": "120 Route 6, Port Jervis, NY 12771-4236, Port Jervis, NY",
+    "phone": "(845) 856-9810",
+    "email": "pjelks.645@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2574",
+    "address": "83 Partition St, Saugerties, NY 12477-1556, Saugerties, NY",
+    "phone": "(845) 246-1621",
+    "email": "debbirl@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1493",
+    "address": "900 Wolcott Ave, Beacon, NY 12508, Beacon, NY",
+    "phone": "(845) 831-9746",
+    "email": "elks1493@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2101",
+    "address": "1430 Route 22, Brewster, NY 10509-4043, Brewster, NY",
+    "phone": "(845) 279-7706",
+    "email": "brewsterelks2101@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 877",
+    "address": "877 Elks Dr, Haverstraw, NY 10927-1901, Haverstraw, NY",
+    "phone": "(845) 429-9851",
+    "email": "secretary@haverstrawelks.org",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1486",
+    "address": "118 Croton Ave, Ossining, NY 10562-2828, Ossining, NY",
+    "phone": "(914) 941-1486",
+    "email": "ossiningelks@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 744",
+    "address": "1038 Brown St, Peekskill, NY 10566-3033, Peekskill, NY",
+    "phone": "(914) 737-0744",
+    "email": "peekskill.lodge.secretary@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 275",
+    "address": "29 Overocker Rd, Poughkeepsie, NY 12603-2424, Poughkeepsie, NY",
+    "phone": "(845) 454-2060",
+    "email": "lodge@bpoe275.org",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2324",
+    "address": "590 Waverly Rd, Yorktown Heights, NY 10598-1619, Yorktown Heights, NY",
+    "phone": "(914) 245-9839",
+    "email": "elks2324@hotmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 81",
+    "address": "32 Cronin Rd, Queensbury, NY 12804-1413, Glens Falls, NY",
+    "phone": "(518) 793-1851",
+    "email": "bpoe81@roadrunner.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2223",
+    "address": "130 Bulson Rd, Greenwich, NY 12834-9004, Greenwich, NY",
+    "phone": "(518) 692-2061",
+    "email": "greenwichelks2223@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2072",
+    "address": "1 Legion Way, Keeseville, NY 12944, Keeseville, NY",
+    "phone": "(518) 834-9291",
+    "email": "info@keesevilleelks.org",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 161",
+    "address": "1 Elk Ln, Saratoga Springs, NY 12866-8429, Saratoga Springs, NY",
+    "phone": "(518) 584-2585",
+    "email": "swelks161@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1494",
+    "address": "5 Tower Ave, Ticonderoga, NY 12883-1626, Ticonderoga, NY",
+    "phone": "(518) 585-7682",
+    "email": "bpoe1494secretary@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1491",
+    "address": "5 Elks Way, Whitehall, NY 12887-1420, Whitehall, NY",
+    "phone": "(518) 499-9758",
+    "email": "elks1491@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2158",
+    "address": "13054 State Route 12, Boonville, NY 13309-0012, Boonville, NY",
+    "phone": "(315) 942-2981",
+    "email": "elks2158@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1762",
+    "address": "511 Fulton St, Carthage, NY 13619-1203, Carthage, NY",
+    "phone": "(315) 493-2849",
+    "email": "1762@centralny.twcbc.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2035",
+    "address": "1419 US Highway 11, Gouverneur, NY 13642, Gouverneur, NY",
+    "phone": "(315) 287-1630",
+    "email": "lodge2035@centralny.twcbc.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 496",
+    "address": "728 Bradley St, Watertown, NY 13601-1251, Watertown, NY",
+    "phone": "(315) 788-1270",
+    "email": "elks496@centralny.twcbc.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1341",
+    "address": "45 N Jefferson Ave, Catskill, NY 12414-2102, Catskill, NY",
+    "phone": "(518) 943-2067",
+    "email": "elks.lodge1341@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 787",
+    "address": "201 Harry Howard Ave, Hudson, NY 12534-1606, Hudson, NY",
+    "phone": "(518) 828-9059",
+    "email": "lodge787@outlook.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2530",
+    "address": "2750 State Route 9H, Kinderhook, NY 12106, Kinderhook, NY",
+    "phone": "(518) 758-2530",
+    "email": "sec2530@berk.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 474",
+    "address": "314 State St, Auburn, NY 13021-1130, Auburn, NY",
+    "phone": "(315) 252-4351",
+    "email": "elks474@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 31",
+    "address": "6117 Newport Rd, Camillus, NY 13031-8623, Camillus, NY",
+    "phone": "(315) 672-3106",
+    "email": "secretarycamillus@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 830",
+    "address": "57 Pierce Dr, Fulton, NY 13069-4934, Fulton, NY",
+    "phone": "(315) 598-4363",
+    "email": "bpoe830@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2107",
+    "address": "901 Lakeville Rd, New Hyde Park, NY 11040-3008, New Hyde Park, NY",
+    "phone": "(516) 352-6620",
+    "email": "elks@nhpnselks.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2619",
+    "address": "10 Hamilton St, Ballston Spa, NY 12020-1340, Ballston Spa, NY",
+    "phone": "(518) 885-1149",
+    "email": "bpoe2619@verizon.net",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2074",
+    "address": "10 Elm St, Potsdam, NY 13676-4438, Potsdam, NY",
+    "phone": "(315) 265-2074",
+    "email": "potsdamlodge2074@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 772",
+    "address": "322 Caroline St, Ogdensburg, NY 13669, Ogdensburg, NY",
+    "phone": "(315) 393-5430",
+    "email": "er@ogdensburgelks.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1702",
+    "address": "20 Bowers St, Massena, NY 13662-2101, Massena, NY",
+    "phone": "(315) 769-2929",
+    "email": "pstamand1@twcny.rr.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1605",
+    "address": "5600 Shady Ave, Lowville, NY 13367-1618, Lowville, NY",
+    "phone": "(315) 376-1605",
+    "email": "elks1605@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 636",
+    "address": "124 Coddington Rd, Ithaca, NY 14850-5666, Ithaca, NY",
+    "phone": "(607) 273-3172",
+    "email": "secretary@ithacaelks.org",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2621",
+    "address": "Old Station Rd, Nelliston, NY",
+    "phone": "(518) 993-2621",
+    "email": "cfpelks2621@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 42",
+    "address": "2 W Gansevoort St, Little Falls, NY 13365-1313, Little Falls, NY",
+    "phone": "(315) 823-2371",
+    "email": "barbarawhite27@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1508",
+    "address": "30 Bloomingdale Ave, Saranac Lake, NY",
+    "phone": "(518) 897-2125",
+    "email": "ltubridy21@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2556",
+    "address": "665 Brunswick Rd, Troy, NY 12180-6909, Troy, NY",
+    "phone": "(518) 279-1344",
+    "email": "Brunswickelks@aol.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2348",
+    "address": "3730 Cold Springs Rd, Baldwinsville, NY",
+    "phone": "(315) 622-2348",
+    "email": "pseeber69@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 767",
+    "address": "191 Main St, Oneida, NY",
+    "phone": "(315) 363-2370",
+    "email": "oneidaelks767@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 271",
+    "address": "132 W 5th St, Oswego, NY",
+    "phone": "(315) 342-2141",
+    "email": "oswegolodge271@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 96",
+    "address": "126 W Liberty St, Rome, NY",
+    "phone": "(315) 339-9900",
+    "email": "secretaryromeelks96@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 33",
+    "address": "1315 Champlin Ave, Utica, NY",
+    "phone": "(315) 732-0858",
+    "email": "uticaelks@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 878",
+    "address": "209 W State St, Olean, NY",
+    "phone": "(716) 372-4191",
+    "email": "bpoe878@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1457",
+    "address": "417 E Boston Post Rd, Mamaroneck, NY 10543-3739, Mamaroneck, NY",
+    "phone": "(914) 315-6446",
+    "email": "secretary1457@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 535",
+    "address": "35 Bedford Rd, Armonk, NY 10504-1863, Armonk, NY",
+    "phone": "(914) 761-6881",
+    "email": "raysculky@optonline.net",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1",
+    "address": "57 Hempstead Ave, Lynbrook, NY 11563-1639, Lynbrook, NY",
+    "phone": "(516) 599-1515",
+    "email": "nyelks1@verizon.net",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2041",
+    "address": "2041 Elks Dr, Nanuet, NY 10954-3417, Nanuet, NY",
+    "phone": "(845) 623-2041",
+    "email": "pearlriverelks2041@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 707",
+    "address": "88 W Lincoln Ave, Mount Vernon, NY 10550-1181, Mount Vernon, NY",
+    "phone": "(914) 664-1842",
+    "email": "southernwny707@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 841",
+    "address": "3250 Richmond Ave, Staten Island, NY 10312-2124, Staten Island, NY",
+    "phone": "(718) 984-6607",
+    "email": "dladelks841@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 70",
+    "address": "83 N Gate Ave, Binghamton, NY",
+    "phone": "(607) 722-1171",
+    "email": "elkslodge70@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 748",
+    "address": "9 Groton Ave, Cortland, NY",
+    "phone": "(607) 753-9764",
+    "email": "cortlandelkslodge748@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1977",
+    "address": "619 N Nanticoke Ave, Endicott, NY",
+    "phone": "(607) 754-0335",
+    "email": "endicottelks1977@stny.rr.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2506",
+    "address": "82 Cortland St, Homer, NY",
+    "phone": "(607) 749-4200",
+    "email": "secretary2506@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2821",
+    "address": "4212 Watson Blvd, Johnson City, NY",
+    "phone": "(607) 798-0358",
+    "email": "jcelks@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1222",
+    "address": "14 E Main St, Norwich, NY 13815-1810, Norwich, NY",
+    "phone": "(607) 334-9261",
+    "email": "jeffcola@hotmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1312",
+    "address": "84 Chestnut St, Oneonta, NY",
+    "phone": "(607) 432-1312",
+    "email": "oneontaelks1312@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1039",
+    "address": "223 Front St, Owego, NY",
+    "phone": "(607) 687-1039",
+    "email": "bearklean@aol.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2175",
+    "address": "104 River St, Sidney, NY",
+    "phone": "(607) 563-2175",
+    "email": "elksecretary2175@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2508",
+    "address": "2071 Vestal Pkwy W, Vestal, NY",
+    "phone": "(607) 748-0081",
+    "email": "elks2508@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1547",
+    "address": "19 Liberty St, Bath, NY",
+    "phone": "(607) 776-6623",
+    "email": "bpoelodge1547@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1071",
+    "address": "148 Walnut St, Corning, NY",
+    "phone": "(607) 962-1071",
+    "email": "corning1071@outlook.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 62",
+    "address": "300 E Gray St, Elmira, NY",
+    "phone": "(607) 733-5659",
+    "email": "elks62secretary@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 364",
+    "address": "60 Broadway Mall, Hornell, NY",
+    "phone": "(607) 324-3121",
+    "email": "elks364@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2297",
+    "address": "6 Prospect Hill Rd, Horseheads, NY 14845-7986, Horseheads, NY",
+    "phone": "(607) 739-9931",
+    "email": "jaderanger122016@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 491",
+    "address": "209 W State St, Olean, NY 14760-2537, Olean, NY",
+    "phone": "(716) 372-4191",
+    "email": "sbleharelks@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1546",
+    "address": "300 N Madison Ave, Watkins Glen, NY 14891-1028, Watkins Glen, NY",
+    "phone": "(607) 535-2859",
+    "email": "cjfsec1546@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1495",
+    "address": "77 E Pearl St, Wellsville, NY",
+    "phone": "(585) 593-5430",
+    "email": "tsaik5@roadrunner.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 49",
+    "address": "25 S Allen St, Albany, NY",
+    "phone": "(518) 489-0698",
+    "email": "albanyelks@nycap.rr.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1317",
+    "address": "45 N Mohawk St, Cohoes, NY",
+    "phone": "(518) 235-3222",
+    "email": "cohoeswaterfordelks1317@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2480",
+    "address": "3867 Carman Rd, Schenectady, NY",
+    "phone": "(518) 355-2480",
+    "email": "secretarybpoe2480@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1403",
+    "address": "302 Park Ave, Mechanicville, NY",
+    "phone": "(518) 664-3345",
+    "email": "secretary.elks1403@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2157",
+    "address": "1152 Curry Rd, Rotterdam, NY",
+    "phone": "(518) 355-4244",
+    "email": "bpoe2157.sec@nycap.rr.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1500",
+    "address": "501 4th Ave, Watervliet, NY",
+    "phone": "(518) 273-8016",
+    "email": "elks1500@nycap.rr.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1006",
+    "address": "428 W State St, Albion, NY",
+    "phone": "(585) 589-4770",
+    "email": "admin@albionelks1006.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2110",
+    "address": "4400 Sweden Walker Rd, Brockport, NY",
+    "phone": "(585) 637-5110",
+    "email": "elks2110@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 922",
+    "address": "428 Central Ave, Dunkirk, NY",
+    "phone": "(716) 366-1110",
+    "email": "cjmlis@roadrunner.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 263",
+    "address": "339 E 4th St, Jamestown, NY",
+    "phone": "(716) 484-1751",
+    "email": "mikepeters@bushindustries.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1942",
+    "address": "2805 Elmwood Ave, Kenmore, NY",
+    "phone": "(716) 871-9097",
+    "email": "ken-tonelks1942@outlook.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1478",
+    "address": "33 Legion Pkwy, Lancaster, NY",
+    "phone": "(716) 685-1478",
+    "email": "elks1478@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 41",
+    "address": "6791 N Canal Rd, Lockport, NY",
+    "phone": "(716) 434-2798",
+    "email": "lkptelks@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 346",
+    "address": "7710 Buffalo Ave, Niagara Falls, NY",
+    "phone": "(716) 297-2727",
+    "email": "lodge346.treasurer@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 860",
+    "address": "55 Main St, Tonawanda, NY",
+    "phone": "(716) 693-2225",
+    "email": "BPOELodge860@yahoo.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1844",
+    "address": "19 Niagara St, Canandaigua, NY",
+    "phone": "(585) 394-4787",
+    "email": "elkscdga1844@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 869",
+    "address": "32 Church St, Lyons, NY",
+    "phone": "(315) 946-4124",
+    "email": "lyonselkslodge869@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1249",
+    "address": "233 S Main St, Newark, NY",
+    "phone": "(315) 331-1249",
+    "email": "elks1249secretary@outlook.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1722",
+    "address": "133 Main St, Penn Yan, NY",
+    "phone": "(315) 536-7313",
+    "email": "pyelkssecretary@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 24",
+    "address": "3525 E Henrietta Rd, Henrietta, NY",
+    "phone": "(585) 334-1900",
+    "email": "secretary@elks24.org",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 992",
+    "address": "2221 River Rd, Seneca Falls, NY 13148-8705, Seneca Falls, NY",
+    "phone": "(315) 568-5931",
+    "email": "elkslodge992@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 2396",
+    "address": "1066 Jackson Rd, Webster, NY",
+    "phone": "(585) 872-1847",
+    "email": "secretaryelks08@gmail.com",
+    "organization": "ELKS",
+    "state": "NY"
+  },
+  {
+    "postNumber": "ELKS 1763",
+    "address": "6161 W Port Bay Rd, Wolcott, NY",
+    "phone": "(315) 594-1763",
+    "email": "wolcottelks1763@rochester.rr.com",
+    "organization": "ELKS",
+    "state": "NY"
+  }
+]

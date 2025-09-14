@@ -1,3 +1,6 @@
+// ================================
+// pages/add-contacts.js (with larger title)
+// ================================
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
@@ -20,7 +23,6 @@ export default function AddContacts() {
     e.preventDefault();
     const payload = { ...form, submittedAt: new Date().toISOString() };
 
-    // 1) Try to persist to a serverless endpoint (Vercel Blob if configured)
     try {
       const resp = await fetch("/api/submit-contact", {
         method: "POST",
@@ -29,11 +31,8 @@ export default function AddContacts() {
       });
       const data = await resp.json();
       if (data.ok) setStatus(data.persisted ? "Saved online" : "Saved locally");
-    } catch (_) {
-      // ignore
-    }
+    } catch (_) {}
 
-    // 2) Always keep a local backup so you can export later
     try {
       const key = "tvod_submissions";
       const current = JSON.parse(localStorage.getItem(key) || "[]");
@@ -42,20 +41,6 @@ export default function AddContacts() {
     } catch (_) {}
 
     setForm({ ...form, postNumber: "", email: "", phone: "", address: "", notes: "" });
-  }
-
-  function downloadJSON() {
-    try {
-      const key = "tvod_submissions";
-      const data = localStorage.getItem(key) || "[]";
-      const blob = new Blob([data], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "contact-submissions.json";
-      a.click();
-      URL.revokeObjectURL(url);
-    } catch (_) {}
   }
 
   return (
@@ -73,7 +58,7 @@ export default function AddContacts() {
           <Link href="/" style={{ color: "#fff", textDecoration: "none", fontFamily: "Roboto Condensed" }}>
             ← Back
           </Link>
-          <h1 style={{ color: "#fff", margin: "0 auto", fontFamily: "Roboto Slab", fontSize: 22 }}>
+          <h1 style={{ color: "#fff", margin: "0 auto", fontFamily: "Roboto Slab", fontSize: 32, fontWeight: 700 }}>
             Add Contacts
           </h1>
         </div>
@@ -185,21 +170,6 @@ export default function AddContacts() {
             >
               Submit Contact
             </button>
-            <button
-              type="button"
-              onClick={downloadJSON}
-              style={{
-                background: "#fff",
-                color: "#0b4a9e",
-                border: "1px solid #0b4a9e",
-                borderRadius: 10,
-                padding: "10px 16px",
-                cursor: "pointer",
-                fontFamily: "Roboto Condensed"
-              }}
-            >
-              Download Submissions (JSON)
-            </button>
             {status && (
               <span style={{ alignSelf: "center", color: "#0b4a9e" }}>{status}</span>
             )}
@@ -209,4 +179,5 @@ export default function AddContacts() {
     </div>
   );
 }
+
 

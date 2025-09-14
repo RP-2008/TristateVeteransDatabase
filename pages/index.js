@@ -82,7 +82,7 @@ export default function Home() {
   const isAll = !active.org && !active.state;
 
   return (
-    <div style={{ minHeight: "100vh", background: "#0b4a9e" }}>
+    <div style={{ minHeight: "200vh", background: "#0b4a9e" }}>
       <Head>
         <title>Tristate Veterans Organizations Database</title>
         <link

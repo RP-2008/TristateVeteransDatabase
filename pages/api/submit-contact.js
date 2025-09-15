@@ -1,8 +1,8 @@
 // ================================
-// pages/api/submit-contact.js (Vercel Blob integration, fixed)
+// pages/api/submit-contact.js (Vercel Blob integration, fixed import path)
 // ================================
 
-import { put } from "@vercel/blob";
+import { put } from "vercel/blob"; // correct import
 
 export const config = {
   api: {
@@ -18,17 +18,15 @@ export default async function handler(req, res) {
   try {
     const data = req.body;
 
-    // Ensure we got something
     if (!data) {
       return res.status(400).json({ ok: false, error: "No data received" });
     }
 
-    // Save submission as JSON in Blob storage
     const filename = `submissions/${Date.now()}.json`;
     await put(filename, JSON.stringify(data, null, 2), {
       access: "public",
       contentType: "application/json",
-      token: process.env.BLOB_READ_WRITE_TOKEN, // use token from env var
+      token: process.env.BLOB_READ_WRITE_TOKEN, // set in Vercel env vars
     });
 
     return res.status(200).json({ ok: true, persisted: true });
@@ -39,17 +37,14 @@ export default async function handler(req, res) {
 }
 
 // ================================
-// How to set up
+// Setup Instructions
 // ================================
-// 1. Add @vercel/blob to your package.json dependencies:
-//    "@vercel/blob": "latest"
-//
-// 2. In Vercel, go to your project → Settings → Environment Variables.
-//    Add: BLOB_READ_WRITE_TOKEN with the token you generate in the Vercel dashboard.
-//
+// 1. Add "vercel": "latest" to dependencies in package.json.
+// 2. In Vercel → Project Settings → Environment Variables:
+//    - Name: BLOB_READ_WRITE_TOKEN
+//    - Value: (generate from Vercel dashboard → Storage → Blob)
 // 3. Save & Redeploy.
 //
-// Every submission will now be saved as a JSON file in Vercel Blob under `submissions/`.
-// You can browse/download them later from the Vercel dashboard or via the API.
+// Submissions will be stored as JSON in your Blob storage under `submissions/`. You can view/download them later from the Vercel dashboard or via API.
 
 

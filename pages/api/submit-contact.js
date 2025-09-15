@@ -1,8 +1,8 @@
 // ================================
-// pages/api/submit-contact.js (Google Sheets integration)
+// pages/api/submit-contact.js (with Vercel Blob integration)
 // ================================
 
-import { google } from "googleapis";
+import { put } from "@vercel/blob";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -12,46 +12,28 @@ export default async function handler(req, res) {
   try {
     const data = req.body;
 
-    // Authenticate with Google Sheets using env variables from your service account JSON
-    const auth = new google.auth.GoogleAuth({
-      credentials: {
-        client_email: process.env.GOOGLE_CLIENT_EMAIL,
-        private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, "\n"),
-      },
-      scopes: ["https://www.googleapis.com/auth/spreadsheets"],
-    });
-
-    const sheets = google.sheets({ version: "v4", auth });
-
-    // Replace with your Google Sheet ID
-    const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-
-    // Define row data
-    const row = [
-      new Date().toISOString(),
-      data.organization || "",
-      data.state || "",
-      data.postNumber || "",
-      data.email || "",
-      data.phone || "",
-      data.address || "",
-      data.notes || ""
-    ];
-
-    await sheets.spreadsheets.values.append({
-      spreadsheetId,
-      range: "Sheet1!A:H", // assumes columns A–H
-      valueInputOption: "USER_ENTERED",
-      requestBody: {
-        values: [row],
-      },
+    // Save submission as JSON in Blob storage
+    const filename = `submissions/${Date.now()}.json`;
+    await put(filename, JSON.stringify(data, null, 2), {
+      access: "public",
+      contentType: "application/json"
     });
 
     return res.status(200).json({ ok: true, persisted: true });
   } catch (err) {
-    console.error("Google Sheets error:", err);
-    return res.status(500).json({ ok: false, error: "Failed to save to Google Sheets" });
+    console.error("Blob error:", err);
+    return res.status(500).json({ ok: false, error: "Failed to save to Vercel Blob" });
   }
 }
+
+// ================================
+// How to set up
+// ================================
+// 1. In Vercel, go to your project → Settings → Environment Variables.
+// 2. Add: BLOB_READ_WRITE_TOKEN with the token you generate in the Vercel dashboard.
+// 3. Save & Redeploy.
+//
+// Every submission will now be saved as a JSON file in Vercel Blob under `submissions/`.
+// You can browse/download them later from the Vercel dashboard or via the API.
 
 

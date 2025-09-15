@@ -1,24 +1,21 @@
-export default async function handler(req, res) {
-  if (req.method !== "POST") return res.status(405).json({ ok: false, error: "Method Not Allowed" });
-  const payload = req.body || {};
+// ================================
+// pages/api/submit-contact.js (safe version, no @vercel/blob)
+// ================================
 
-  let persisted = false;
-  try {
-    if (process.env.BLOB_READ_WRITE_TOKEN) {
-      const { put } = await import("@vercel/blob");
-      const key = `submissions/${Date.now()}-${Math.random().toString(36).slice(2)}.json`;
-      await put(key, JSON.stringify(payload, null, 2), {
-        access: "public",
-        addRandomSuffix: false,
-        contentType: "application/json",
-        token: process.env.BLOB_READ_WRITE_TOKEN
-      });
-      persisted = true;
-    }
-  } catch (e) {
-    console.error("Blob save failed", e);
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ ok: false, error: "Method not allowed" });
   }
 
-  return res.status(200).json({ ok: true, persisted });
+  try {
+    const data = req.body;
+
+    // For now we only echo back the payload.
+    // You can later integrate a database or API here.
+
+    return res.status(200).json({ ok: true, persisted: false, data });
+  } catch (err) {
+    return res.status(500).json({ ok: false, error: "Failed to process submission" });
+  }
 }
 

@@ -1,5 +1,5 @@
 // ================================
-// pages/add-contacts.js (with larger title)
+// pages/add-contacts.js (clean, no @vercel/blob dependency)
 // ================================
 import { useState, useEffect } from "react";
 import Head from "next/head";
@@ -19,26 +19,19 @@ export default function AddContacts() {
 
   useEffect(() => setStatus(""), [form.organization, form.state]);
 
-  async function handleSubmit(e) {
+  function handleSubmit(e) {
     e.preventDefault();
     const payload = { ...form, submittedAt: new Date().toISOString() };
-
-    try {
-      const resp = await fetch("/api/submit-contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-      const data = await resp.json();
-      if (data.ok) setStatus(data.persisted ? "Saved online" : "Saved locally");
-    } catch (_) {}
 
     try {
       const key = "tvod_submissions";
       const current = JSON.parse(localStorage.getItem(key) || "[]");
       current.push(payload);
       localStorage.setItem(key, JSON.stringify(current));
-    } catch (_) {}
+      setStatus("Thank you — your contact has been submitted.");
+    } catch (_) {
+      setStatus("There was an error saving locally.");
+    }
 
     setForm({ ...form, postNumber: "", email: "", phone: "", address: "", notes: "" });
   }
@@ -179,5 +172,4 @@ export default function AddContacts() {
     </div>
   );
 }
-
 

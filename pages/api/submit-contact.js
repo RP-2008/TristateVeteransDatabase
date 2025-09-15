@@ -1,8 +1,8 @@
 // ================================
-// pages/api/submit-contact.js (Vercel Blob integration, fixed import path)
+// pages/api/submit-contact.js (Vercel Blob integration, corrected import)
 // ================================
 
-import { put } from "vercel/blob"; // correct import
+import { put } from "@vercel/blob"; // official import path
 
 export const config = {
   api: {
@@ -23,13 +23,12 @@ export default async function handler(req, res) {
     }
 
     const filename = `submissions/${Date.now()}.json`;
-    await put(filename, JSON.stringify(data, null, 2), {
+    const { url } = await put(filename, JSON.stringify(data, null, 2), {
       access: "public",
       contentType: "application/json",
-      token: process.env.BLOB_READ_WRITE_TOKEN, // set in Vercel env vars
     });
 
-    return res.status(200).json({ ok: true, persisted: true });
+    return res.status(200).json({ ok: true, persisted: true, url });
   } catch (err) {
     console.error("Blob error:", err);
     return res.status(500).json({ ok: false, error: "Failed to save to Vercel Blob" });
@@ -39,12 +38,9 @@ export default async function handler(req, res) {
 // ================================
 // Setup Instructions
 // ================================
-// 1. Add "vercel": "latest" to dependencies in package.json.
+// 1. Add "@vercel/blob": "latest" to dependencies in package.json.
 // 2. In Vercel → Project Settings → Environment Variables:
-//    - Name: BLOB_READ_WRITE_TOKEN
-//    - Value: (generate from Vercel dashboard → Storage → Blob)
+//    - (No token required for public writes, unless you want private control)
 // 3. Save & Redeploy.
 //
 // Submissions will be stored as JSON in your Blob storage under `submissions/`. You can view/download them later from the Vercel dashboard or via API.
-
-
